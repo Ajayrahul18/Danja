@@ -10,6 +10,14 @@
         <link rel="icon" href="assets/img/favicon.png">
         <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="Contact form to email.css">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+        
         <style>
             .categories-btn{
                 background-color: #F04E23;
@@ -51,6 +59,7 @@
         .tm-btn1:hover {
             background-color: #0056b3;
         }
+
         
         /* Popup container - can be anything you want */
 .popup {
@@ -98,6 +107,20 @@
   animation: fadeIn 1s;
 }
 
+.menu-item ul {
+            list-style: none;
+            padding-left: 0;
+            text-align: left;
+}
+
+.menu-item ul li {
+            padding: 5px 0;
+        }
+
+        .tm-gray-bg { background-color: #f5f5f5; }
+        .empty-space { height: 20px; }
+        .tm-dept-img img { max-width: 100%; height: auto; }
+
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
@@ -125,8 +148,8 @@
         <div class="tm-site-header">
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
-                    <a href="#"><i class="fa fa-phone"></i>+91 987654321</a>
-                    <a href="#"><i class="fa fa-envelope"></i>info@danjahealthcare.com</a>
+                    <a href="#"><i class="fa fa-phone"></i>+91 799 599 9000</a>
+                    <a href="#"><i class="fa fa-envelope"></i>info@danja.in</a>
                 </div>
             </div>
             <div class="tm-header-menu">
@@ -145,21 +168,15 @@
                             <li class="menu-item" ><a href="#department" class="nav-link tm-smooth-move" id="hover-red">PRODUCTS</a></li>
                             <li class="menu-item" ><a href="#doctor" class="nav-link tm-smooth-move" id="hover-red">PROJECTS</a></li>
                             <li class="menu-item" ><a href="#gallery" class="nav-link tm-smooth-move" id="hover-red">GALLERY</a></li>
-                            <li class="menu-item" ><a href="" class="nav-link tm-smooth-move" id="hover-red">Career</a></li>
+                            <li class="menu-item" ><a href="joinUs.html" class="nav-link tm-smooth-move" id="hover-red">CAREERS</a></li>
                             <li class="menu-item" ><a href="#contact" class="nav-link tm-smooth-move" id="hover-red">CONTACT</a></li>
                             <br>
                             <button class="categories-btn" type="button">
-                                <li class="menu-item menu-item-has-children" id="hover-white"><a class="nav-link tm-smooth-move" style="color: #292759;">All Categories</a>
+                                <li class="menu-item menu-item-has-children" id="hover-white"><a class="nav-link tm-smooth-move" style="color: #292759;">Our Credentials</a>
                                     <ul>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Categories 1</a></li>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Categories 2</a></li>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Categories 3</a></li>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Categories 4</a></li>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Categories 5</a></li>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Categories 6</a></li>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Categories 7</a></li>
-                                        <li class="menu-item"><a href="certificat.html" class="nav-link tm-smooth-move" id="hover-red">Our Certifications</a></li>
-<li class="menu-item"><a href="partner.html" class="nav-link tm-smooth-move" id="hover-red">Our Clients & Partners</a></li>
+                                        <li class="menu-item"><a href="clients.html" class="nav-link tm-smooth-move" id="hover-red">Our Clients</a></li>
+                                        <li class="menu-item"><a href="partner.html" class="nav-link tm-smooth-move" id="hover-red">Partners </a></li>
+                                        <li class="menu-item"><a href="certificat.html" class="nav-link tm-smooth-move" id="hover-red">Certifications</a></li>
                                     </ul>
                                 </li>
                             </button>
@@ -175,13 +192,12 @@
             <div class="slider-text">
                 <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br> Best Quality Medical <br> Equipments for
                     <span class="tm-words-wrapper">
-                        <b class="is-visible" style="color: #F04E23;">COVID_19_PREVENTION</b>
-                        <b style="color: #F04E23;">DIAGNOSTIC_EQUIPMENT</b>
+                        <b class="is-visible" style="color: #F04E23;">DIAGNOSTIC_EQUIPMENT</b>
                         <b style="color: #F04E23;">LABORATORY_EQUIPMENT</b>
                         <b style="color: #F04E23;">X-RAY</b>
                         <b style="color: #F04E23;">HOSPITAL_FURNITURE</b>
-                        <b style="color: #F04E23;">Cancer_Treatment_Equipment</b>
-                        <b style="color: #F04E23;">Mobile Clinics</b>
+                        <b style="color: #F04E23;">CANCER_TREATMENT_EQUIPMENT</b>
+                        <b style="color: #F04E23;">MOBILE_CLINIC</b>
                     </span>
                 </h1>
                     <div class="empty-space col-sm-b20 col-xs-b10"></div>
@@ -483,8 +499,8 @@
                 </div>
             </div>
         <div class="tm-member-meta tm-gray-bg text-center">
-            <h3 class="tm-member-name"><a href="#">APMSIDC/ Medical Colleges.</a></h3>
-            <span class="tm-member-speciality">Hospitals</span>
+            <h3 class="tm-member-name"><a href="proDetail1.html">APMSIDC-Government Medical Colleges and Hospitals </a></h3>
+            <span class="tm-member-speciality">Medical Equipments& Furniture, Skill Lab</span>
         </div>
         </div>
         <div class="tm-team-member">
@@ -496,7 +512,7 @@
                 </div>
             </div>
             <div class="tm-member-meta tm-gray-bg text-center">
-                <h3 class="tm-member-name"><a href="#">EQUIPMENT </a></h3>
+                <h3 class="tm-member-name"><a href="proDetails2.html">Medical Equipements </a></h3>
                 <span class="tm-member-speciality">Minor Equipment & Furniture</span>
             </div>
         </div>
@@ -509,7 +525,7 @@
                 </div>
             </div>
             <div class="tm-member-meta tm-gray-bg text-center">
-            <h3 class="tm-member-name"><a href="#">CANCER CARE</a></h3>
+            <h3 class="tm-member-name"><a href="proDetails3.html">Cancer Care </a></h3>
             <span class="tm-member-speciality">Brachytherapy</span>
             </div>
         </div>
@@ -522,7 +538,7 @@
         </div>
         </div>
         <div class="tm-member-meta tm-gray-bg text-center">
-        <h3 class="tm-member-name"><a href="#">MOBILE VEHICLES</a></h3>
+        <h3 class="tm-member-name"><a href="proDetails4.html">Mobile Clinics</a></h3>
         <span class="tm-member-speciality">Mobile Mammography Van.</span>
         </div>
         </div>
@@ -535,7 +551,7 @@
         </div>
         </div>
         <div class="tm-member-meta tm-gray-bg text-center">
-        <h3 class="tm-member-name"><a href="#">Linear Accelerator </a></h3>
+        <h3 class="tm-member-name"><a href="proDetails5.html">Linear Accelerator </a></h3>
         <span class="tm-member-speciality">Panacea Medical Technologies</span>
         </div>
         </div>
@@ -558,8 +574,8 @@
             <ul>
                 <li class="active"><a href="#" data-filter="*">ALL</a></li>
                 <li><a href="#" data-filter=".cardiology">Cancer Clinics</a></li>
-                <li><a href="#" data-filter=".neurology">DIAGNOSTIC_EQUIPMENT</a></li>
-                <li><a href="#" data-filter=".urology">LABORATORY_EQUIPMENT</a></li>
+                <li><a href="#" data-filter=".neurology">DIAGNOSTIC EQUIPMENT</a></li>
+                <li><a href="#" data-filter=".urology">LABORATORY EQUIPMENT</a></li>
                 <li><a href="#" data-filter=".pulmonary">X-RAY</a></li>
                 <li><a href="#" data-filter=".ictcVans"> ICTC Vans</a></li>
             </ul>
@@ -580,6 +596,13 @@
                 <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
                 </div>
+            <div class="tm-portfolio-item ictcVans">
+                <a href="assets/img/product-20a.jpg" class="item-inner">
+                <img src="assets/img/product-20.jpg" alt="portfolio-02">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                </a>
+            </div>
                 <div class="tm-portfolio-item ictcVans ">
                     <a href="assets/img/product-10a.jpg" class="item-inner">
                     <img src="assets/img/product-10.jpg" alt="portfolio-02">
@@ -594,21 +617,14 @@
                         <i class="tm-zoom-icon icofont icofont-drag1"></i>
                         </a>
                         </div>
-                    <div class="tm-portfolio-item cardiology ictcVans">
-                        <a href="assets/img/product-12a.jpg" class="item-inner">
-                        <img src="assets/img/product-12.jpg" alt="portfolio-02">
-                        <div class="tm-zoom-btn"></div>
-                        <i class="tm-zoom-icon icofont icofont-drag1"></i>
-                        </a>
-                        </div>
-                        <div class="tm-portfolio-item cardiology ictcVans">
+                        <div class="tm-portfolio-item cardiology">
                             <a href="assets/img/product-13a.jpg" class="item-inner">
                             <img src="assets/img/product-13.jpg" alt="portfolio-02">
                             <div class="tm-zoom-btn"></div>
                             <i class="tm-zoom-icon icofont icofont-drag1"></i>
                             </a>
                             </div>
-                            <div class="tm-portfolio-item cardiology ictcVans">
+                            <div class="tm-portfolio-item cardiology">
                                 <a href="assets/img/product-14a.jpg" class="item-inner">
                                 <img src="assets/img/product-14.jpg" alt="portfolio-02">
                                 <div class="tm-zoom-btn"></div>
@@ -622,7 +638,7 @@
             <i class="tm-zoom-icon icofont icofont-drag1"></i>
             </a>
             </div>
-            <div class="tm-portfolio-item cardiology pulmonary">
+            <div class="tm-portfolio-item pulmonary">
             <a href="assets/img/product-3a.jpg" class="item-inner">
             <img src="assets/img/product-3.jpg" alt="portfolio-03">
             <div class="tm-zoom-btn"></div>
@@ -643,7 +659,7 @@
             <i class="tm-zoom-icon icofont icofont-drag1"></i>
             </a>
             </div>
-            <div class="tm-portfolio-item cardiology neurology pulmonary">
+            <div class="tm-portfolio-item neurology pulmonary">
             <a href="assets/img/product-6a.jpg" class="item-inner">
             <img src="assets/img/product-6.jpg" alt="portfolio-06">
             <div class="tm-zoom-btn"></div>
@@ -657,20 +673,53 @@
             <i class="tm-zoom-icon icofont icofont-drag1"></i>
             </a>
             </div>
-            <div class="tm-portfolio-item cardiology ictcVans">
+            <div class="tm-portfolio-item cardiology">
             <a href="assets/img/product-8a.jpg" class="item-inner">
             <img src="assets/img/product-8.jpg" alt="portfolio-08">
             <div class="tm-zoom-btn"></div>
             <i class="tm-zoom-icon icofont icofont-drag1"></i>
             </a>
             </div>
-        </div>
-        <div class="empty-space col-xs-b25 "></div>
-            <div class="tm-about-btn text-center">
-                <a href="gallery.html" class="tm-btn1">Show More</a>
+            <div class="tm-portfolio-item cardiology">
+                <a href="assets/img/product-15.jpg" class="item-inner">
+                <img src="assets/img/product-15a.jpg" alt="portfolio-08">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                </a>
+            </div>
+            <div class="tm-portfolio-item cardiology">
+                <a href="assets/img/product-16.jpg" class="item-inner">
+                <img src="assets/img/product-16a.jpg" alt="portfolio-08">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                </a>
+            </div>
+            <div class="tm-portfolio-item cardiology">
+                <a href="assets/img/product-17.jpg" class="item-inner">
+                <img src="assets/img/product-17a.jpg" alt="portfolio-08">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                </a>
+            </div>
+            <div class="tm-portfolio-item cardiology">
+                <a href="assets/img/product-18a.jpg" class="item-inner">
+                <img src="assets/img/product-18.jpg" alt="portfolio-08">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                </a>
+            </div>
+            <div class="tm-portfolio-item cardiology">
+                <a href="assets/img/product-19a.jpg" class="item-inner">
+                <img src="assets/img/product-19.jpg" alt="portfolio-08">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+                </a>
             </div>
         </div>
-    </section>
+        <div class="empty-space col-xs-b25 "></div>
+            </div>
+        </div>
+    </section></br></br></br>
 
 
     <!-- <section>
@@ -745,7 +794,7 @@
     </div>
     <div class="col-lg-3 col-md-6">
     <div class="tm-fun-fact text-center">
-    <i class="icofont icofont-doctor"></i>
+    <i class="icofont icofont-notepad"></i>
     <h2 class="tm-counter">20+</h2>
     <h3>Number of Projects</h3>
     </div>
@@ -753,7 +802,7 @@
     </div>
     <div class="col-lg-3 col-md-6">
     <div class="tm-fun-fact text-center">
-    <i class="icofont icofont-users-social"></i>
+    <i class="icofont icofont-worker"></i>
     <h2 class="tm-counter">5</h2>
     <h3>Live Projects</h3>
     </div>
@@ -764,25 +813,113 @@
     <div class="empty-space col-lg-b70 col-xs-b40"></div>
     </section></body>
 
+
+
+
+
+
+
+
+
 <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>View our Gallery</h2>
+            <h2>Our Proud Movements:</h2>
             <div class="tm-section-seperator"><span></span></div>
+            <p>We are thrilled to announce the launch of the Mobile Cancer Screening Bus, a crucial initiative for cancer screening in Andhra Pradesh. The event will be graced by Karunakar Reddy, Chairman of TTD, Krishna Babu IAS, Special Chief Secretary of Health, Andhra Pradesh, M. Guru Murthy, MP of Tirupati, and our Managing Director, Sri. Srinivas Kumar Malla. TTD officials Addl. EO Sri. Dharma Reddy Garu and JEO (H&E) Smt. SadaBhargavi IAS, Smt. VemireddyPrashanti MLA & VPR Foundation Director, Dr. Arjun, and Dr.Jayachandra Reddy have also visited the project. Additionally, Tirupati collector Sri. Venkatarami Reddy IAS, SVIMS Director Dr. RV Kumar, and SBIO Special Officer Dr.Jayachandra Reddy, along with their team of doctors, reviewed the Mammo Screening Bus project. Join us in advancing healthcare accessibility and early cancer detection for our communities.</p>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
-<div class="tm-clients-wrap">
-    <div class="container">
-    <div class="tm-clients-curosor owl-carousel">
-    <div class="tm-client"><img src="assets/img/client-logo-01.png" alt=""></div>
-    <div class="tm-client"><img src="assets/img/client-logo-02.png" alt=""></div>
-    <div class="tm-client"><img src="assets/img/client-logo-03.png" alt=""></div>
-    <div class="tm-client"><img src="assets/img/client-logo-04.png" alt=""></div>
-    <div class="tm-client"><img src="assets/img/client-logo-05.png" alt=""></div>
-    <div class="tm-client"><img src="assets/img/client-logo-06.png" alt=""></div>
-    </div>
-    </div>
-    <div class="empty-space col-md-b100 col-xs-b70"></div>
-    </div>
+        <section>
+    </section> 
+
+    <section class="tm-gray-bg" id="department">
+        <div class="empty-space col-md-b50 col-xs-b70"></div>
+        <div class="tm-section-heading text-center">
+            <div class="empty-space col-md-b60 col-xs-b40"></div>
+        </div>
+        <div class="container">
+            <div class="tm-tab-wrap">
+                <div class="owl-carousel tm-testimonial tm-testimonial-1 tm-dots1">
+                    <div class="tm-single-testimonial">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="tm-dept-img">
+                                    <img src="assets/img/pride-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="tm-dept-details-wrap">
+                                    <div class="tm-about tm-gray-bg">
+                                        <div class="tm-about-text">
+                                            <p>Collector Tirupati Sri. Venkatarami Reddy IAS, SVIMS director Sri. Dr. RV Kumar & S BIO special officer Dr.Jayachandra Reddy with team of doctors visited our Mammo Screening Bus project</p>
+                                        </div>
+                                        <div class="empty-space col-xs-b25"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tm-single-testimonial">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="tm-dept-img">
+                                    <img src="assets/img/pride-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="tm-dept-details-wrap">
+                                    <div class="tm-about tm-gray-bg">
+                                        <div class="tm-about-text">
+                                            <p>Smt. Vemireddy Prashanti MLA & VPR FOUNDATION DIRECTOR, Dr. Arjun visited our project, Dr. JAYACHANDRA REDDY briefing about the project</p>
+                                        </div>
+                                        <div class="empty-space col-xs-b25"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tm-single-testimonial">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="tm-dept-img">
+                                    <img src="assets/img/pride-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="tm-dept-details-wrap">
+                                    <div class="tm-about tm-gray-bg">
+                                        <div class="tm-about-text">
+                                            <p>TTD officials Addl.EO Sri. DHARMA Reddy garu, JEO (H&E)Smt. SADA BHARGAVI IAS and team of officials and doctors visited our project</p>
+                                        </div>
+                                        <div class="empty-space col-xs-b25"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tm-single-testimonial">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="tm-dept-img">
+                                    <img src="assets/img/pride-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="tm-dept-details-wrap">
+                                    <div class="tm-about tm-gray-bg">
+                                        <div class="tm-about-text">
+                                            <p>Karunakar Reddy Chairman, TTD Krishna Babu IAS, Special chief Secretary Health ANDHRAPRADESH Official launch of Mobile Cancer Screening Bus. Guru Murthy MP Tirupati Along with our Managing Director Sri. SRINIVAS KUMAR MALLA also present at the launching.</p>
+                                        </div>
+                                        <div class="empty-space col-xs-b25"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end of owl-carousel -->
+            </div> <!-- end of tm-tab-wrap -->
+        </div> <!-- end of container -->
+        <div class="empty-space col-md-b100 col-xs-b70"></div>
+    </section>
    
     
     <div class="tm-newsletter tm-bg">
@@ -819,7 +956,7 @@
                         <div class="tm-single-contact tm-style1">
                         <i class="fa fa-map-marker"></i>
                         <h3>Address</h3>
-                        <p style="color: #292759;">DANJA HEALTHCARE PRIVATE LIMITED</p>
+                        <p style="color: #292759;"><h3>DANJA HEALTHCARE PRIVATE LIMITED</h3></p>
                         <p> 
                             Corporate Office: 2A, Sri Teja Residency,
                             Plot No.70, Beverly Hills, Kakatiya Hills,</p>
@@ -832,9 +969,7 @@
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-phone"></i>
                         <h3>Phone</h3>
-                        <p>+ 91 40 2341 9000<br>
-                        + 91 40 4950 9000 <br>
-                        + 91 40 4952 9000</p>
+                        <p>+ 91 799 599 9000<br>
                     </div>
                     <div class="empty-space col-md-b60 col-xs-b30"></div>
                 </div>
@@ -842,51 +977,43 @@
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-envelope"></i>
                         <h3>Email</h3>
-                        <p>info@danjahealthcare.com <br>
-                        Skype: example</p>
+                        <p>info@danja.in</p>
                     </div>
                     <div class="empty-space col-md-b60 col-xs-b30"></div>
                 </div>
                 <div class="col-lg-12">
                     <div id="tm-alert"></div>
-                    <form action="index.html" class="row tm-contact-form" method="post" id="contact-form">
+                    <form id="tm-contact-form">
                         <div class="col-lg-6">
                             <div class="tm-form-field">
-                                <input type="text" id="name" name="name" required>
+                                <input type="text" id="name" name="name" style="color: black;" required>
                                 <label for="name">Full Name</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="tm-form-field">
-                                <input type="text" id="email" name="email" required>
+                                <input type="text" id="email" name="email" style="color: black;" required>
                                 <label for="email">Email Address</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="tm-form-field">
-                                <input type="text" id="subject" name="subject" required>
-                                <label for="subject">Subject</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="tm-form-field">
-                                <input type="text" id="phone" name="phone" required>
+                                <input type="text" id="phone" name="phone" style="color: black;" required>
                                 <label for="phone">Phone</label>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="tm-form-field">
-                                <textarea cols="30" rows="10" id="msg" name="msg" required></textarea>
-                                <label for="msg">Your Message</label>
+                            <textarea cols="30" rows="10" id="msg" name="msg" style="color: black;" required></textarea>
+                            <label>Your Message</label>
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <button class="tm-btn1" type="submit" id="submit" name="submit" onclick="myFunction()">
-                                <div class="popup" onclick="myFunction()">SEND MESSAGE
-                                    <span class="popuptext" id="myPopup">A Simple Popup!</span>
-                                  </div></button>
-                            <div class="empty-space col-lg-b30"></div>
+                            <button class="tm-btn1" type="submit" id="submit" name="submit">
+                                SEND MESSAGE
+                            </button>
                         </div>
+                    </form>
                     </form>
                 </div>
             </div>
@@ -942,7 +1069,7 @@
         <div class="tm-footer-hotline-in">
         <div class="tm-phone-icon"><i class="fa fa-mobile"></i></div>
         <h3>For Enquiries</h3>
-        <p>+91 987654321</p>
+        <p>+91 799 599 9000</p>
         </div>
         </div>
         </div>
@@ -955,16 +1082,32 @@
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault(); // Prevent the default form submission
-                alert('Your message sent successfully'); // Show the pop-up message
-                this.reset(); // Optionally reset the form
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            (function(){
+                emailjs.init("0qvqG8ff-X7pyKAAZ"); // Replace with your EmailJS user ID
+            })();
+
+            document.getElementById('tm-contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                // Send form data using EmailJS
+                emailjs.sendForm('service_u56rppv', 'template_tir9wx5', this)
+                    .then(function(response) {
+                        alert('You Mail has been sent. Thank you!', 'SUCCESS!', response.status, response.text);
+                        document.querySelector('.popup').style.display = 'block';
+                    }, function(error) {
+                        alert('FAILED..., try again', error);
+                    });
             });
         });
-
-        
     </script>
+ 
+
 </body>
 </html>

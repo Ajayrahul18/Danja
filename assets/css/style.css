@@ -1660,7 +1660,7 @@ html {
     height: 100%;
 }
 .owl-carousel.tm-hero-slider .owl-item img {
-    height: 100%;
+    height: 200%;
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -2898,7 +2898,7 @@ html {
     padding: 0;
 }
 .tm-grid-sizer, .tm-portfolio-item {
-    width: 25%;
+    width: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2998,7 +2998,7 @@ html {
 .tm-testimonial-text {
     background: #f3fbfd;
     margin-left: -115px;
-    padding: 20px 30px 20px 145px;
+    padding: 20px 30px 20px 400px;
     min-height: 245px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3462,7 +3462,7 @@ html {
 /*Clients*/
 .tm-clients-curosor .tm-client {
     border: 1px solid #cccccc;
-    height: 100px;
+    height: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3577,7 +3577,7 @@ html {
 }
 .post-thumbnail img,
 .post-thumbnail .owl-carousel .owl-item img {
-    width: 100%;
+    width: 180%;
 }
 .tm-post-details-wrap {
     position: relative;
@@ -4707,7 +4707,7 @@ to {
     background-color: rgba(255, 255, 255, 1);
 }
 .tm-hero-doctor.owl-carousel .owl-item img {
-    max-width: 100%;
+    max-width: 180%;
     width: initial;
 }
 .tm-header2 .tm-primary-nav .menu-item > a {

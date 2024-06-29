@@ -1,46 +1,51 @@
 <!doctype html>
 <html>
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="ThemeMarch">
-        <title>Danja Healthcare</title>
-        <link rel="icon" href="assets/img/favicon.png">
-        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <style>
-            .categories-btn{
-                background-color: #F04E23;
-                padding: 15px 20px;
-                padding-right: -5px;
-                min-width: 140px;
-                font-size: 14px;
-                border: none;
-
-            }
-            #hover-red:hover {
-                background-color: #F04E23;
-                color: #ffffff;
-            }
-            #hover-white :hover {
-                color: #ffffff;
-            }
-
-        </style>
-        <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-        </script>
-        <script type="text/javascript">
-            (function(){
-                emailjs.init({
-                    publicKey: "9WWWllKQ2VHem5qoL",
-                });
-            })();
-        </script>
-        <script src="main.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="ThemeMarch">
+    <title>Danja Healthcare</title>
+    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+        .categories-btn {
+            background-color: #F04E23;
+            padding: 15px 20px;
+            padding-right: -5px;
+            min-width: 140px;
+            font-size: 14px;
+            border: none;
+        }
+        #hover-red:hover {
+            background-color: #F04E23;
+            color: #ffffff;
+        }
+        #hover-white:hover {
+            color: #ffffff;
+        }
+        .redirect-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .redirect-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("lQwkHkqPQVu8y637M"); // Replace with your actual EmailJS public key
+        })();
+    </script>
+</head>
 <body>
     <div id="tm-preloader">
         <div id="tm-preloader-in">
@@ -55,13 +60,13 @@
         <div class="tm-site-header">
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
-                    <a href="#"><i class="fa fa-phone"></i>+91 987654321</a>
+                    <a href="#"><i class="fa fa-phone"></i>+91 799 599 9000</a>
                     <a href="#"><i class="fa fa-envelope"></i>info@danjahealthcare.com</a>
                 </div>
             </div>
             <div class="tm-header-menu">
                 <div class="container tm-header-menu-container">
-                    <div >
+                    <div>
                         <a href="index.html" class="tm-logo-link">
                             <img src="assets/img/logo1.png" alt="" class="tm-logo">
                         </a>
@@ -71,96 +76,73 @@
                             <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
                                 <a href="index.html" class="nav-link tm-smooth-move" id="hover-red">HOME</a>
                             </li>
-                            <li class="menu-item" ><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">ABOUT US</a></li>
-                            <li class="menu-item" ><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">PRODUCT</a></li>
-                            <li class="menu-item" ><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">PROJECT</a></li>
-                            <li class="menu-item" ><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">GALLERY</a></li>
-                            <li class="menu-item" ><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">CONTACT</a></li>
+                            <li class="menu-item"><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">ABOUT US</a></li>
+                            <li class="menu-item"><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">PRODUCT</a></li>
+                            <li class="menu-item"><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">PROJECT</a></li>
+                            <li class="menu-item"><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">GALLERY</a></li>
+                            <li class="menu-item" ><a href="joinUs.html" class="nav-link tm-smooth-move" id="hover-red">CAREERS</a></li>
+                            <li class="menu-item"><a href="index.html" class="nav-link tm-smooth-move" id="hover-red">CONTACT</a></li>
                             <br>
                             <button class="categories-btn" type="button">
-                                <li class="menu-item menu-item-has-children" id="hover-white"><a class="nav-link tm-smooth-move" style="color: #292759;">Our Credentials</a>
+                                <li class="menu-item menu-item-has-children" id="hover-white">
+                                    <a class="nav-link tm-smooth-move" style="color: #292759;">Our Credentials</a>
                                     <ul>
-                                        <li class="menu-item"><a href="#" class="nav-link tm-smooth-move" id="hover-red">Our Clients</a></li>
-                                        <li class="menu-item"><a href="partner.html" class="nav-link tm-smooth-move" id="hover-red">Partners </a></li>
+                                        <li class="menu-item"><a href="clients.html" class="nav-link tm-smooth-move" id="hover-red">Our Clients</a></li>
+                                        <li class="menu-item"><a href="partner.html" class="nav-link tm-smooth-move" id="hover-red">Partners</a></li>
                                         <li class="menu-item"><a href="certificat.html" class="nav-link tm-smooth-move" id="hover-red">Certifications</a></li>
                                     </ul>
                                 </li>
                             </button>
-                            
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    </div>
-    <div class="empty-space col-md-b70 col-xs-b40"></div>
-    </section>
 
 
     <section class="tm-blog-hero">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="tm-blog-hero-title">Join Us</h1>
+                    <h1 class="tm-blog-hero-title">CAREERS</h1>
                     <ul class="tm-breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li>Join Us</li>
+                        <li>CAREERS</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
+    
 
-
-    <section id="gallery">
-        <div class="empty-space col-md-b100 col-xs-b70"></div>
-        <div class="tm-section-heading text-center">
-            <h2>Enter the Details</h2>
-            <div class="tm-section-seperator"><span></span></div>
-            <div class="empty-space col-md-b60 col-xs-b40"></div>
+    <section>
+        <div class="container">
+            <div class="col-lg-12">
+                <article class="tm-post">
+                    <header class="tm-entry-header">
+                    <div class="tm-post-details-wrap">
+                    <h2 class="tm-entry-title"><a href="#" style="align-items: center;">Our reinvention
+                        starts with you.</a></h2>
+                    </div>
+                    </header>
+                    <div class="tm-entry-content">
+                    <p><h3>What we offer</h3><h5>An opportunity to reinvent your world.</h5>
+                        
+                        
+                        
+                        Work with diverse and driven people on global projects that are truly shaping the world. Seize the opportunity to learn, grow, and realize your ambitions.</p>
+                    </div>
+                </article>
+            </div>
         </div>
-        <div class="col-lg-12">
-            <div id="tm-alert"></div>
-            <form action="index.html" class="row tm-contact-form" method="post" id="contact-form">
-                <div class="col-lg-6">
-                    <div class="tm-form-field">
-                        <input type="text" id="name" name="name" required>
-                        <label for="name">Full Name</label>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="tm-form-field">
-                        <input type="text" id="email" name="email" required>
-                        <label for="email">Email Address</label>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="tm-form-field">
-                        <textarea cols="30" rows="10" id="msg" name="msg" required></textarea>
-                        <label for="msg">Your Message</label>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="tm-form-field">
-                        <input type="file" id="file" name="file" required>
-                    </div>
-                </div>
-                
-                <div class="col-lg-12">
-                    <button class="tm-btn1" type="submit" id="submit" name="submit" onclick="sendMail()">
-                        <div class="popup" onclick="sendMail()">SEND MESSAGE
-                          </div></button>
-                    <div class="empty-space col-lg-b30"></div>
-                </div>
-            </form>
+        <div class="container">
+            <button class="redirect-btn" onclick="window.location.href='https://forms.gle/ChtYaMC4yzLDaj9dA'">Apply Now</button>
         </div>
-    </section></br></br>
+    </section>
 
-
-
-
+    <div class="empty-space col-md-b100 col-xs-b70"></div>
 
     <footer class="tm-overflow-hidden">
         <div class="tm-gray-bg">
@@ -197,22 +179,22 @@
             </div>
         </div>
         <div class="tm-site-footer">
-        <div class="container">
-        <div class="row row-sm-reverce">
-        <div class="col-md-7 col-lg-8">
-        <p class="tm-copyright">Copyright © 2024. Designed by Radbo Desgins </p>
-        </div>
-        <div class="col-md-5 col-lg-4">
-        <div class="tm-footer-hotline">
-        <div class="tm-footer-hotline-in">
-        <div class="tm-phone-icon"><i class="fa fa-mobile"></i></div>
-        <h3>For Enquiries</h3>
-        <p>+91 987654321</p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
+            <div class="container">
+                <div class="row row-sm-reverce">
+                    <div class="col-md-7 col-lg-8">
+                        <p class="tm-copyright">Copyright © 2018 TRUSTLIFE. Designed by thememarch </p>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="tm-footer-hotline">
+                            <div class="tm-footer-hotline-in">
+                                <div class="tm-phone-icon"><i class="fa fa-mobile"></i></div>
+                                <h3>Toll Free</h3>
+                                <p>+91 799 599 9000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <div id='scrollup'></div>
@@ -220,43 +202,5 @@
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-        function sendMail() {
-            let parms = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                message: document.getElementById('message').value,
-                file: document.getElementById('file').value
-
-            }
-            emailjs.send("service_fq6szr9","template_6juye7m",parms).then(function(res){
-                
-            })
-        }
-        // var btn = document.getElementById('submit');
-        // btn.addEventListener('click', function(e) {
-        //     e.preventDefault();
-
-        //     var name = document.getElementById('name').value;
-        //     var email = document.getElementById('email').value;
-        //     var message = document.getElementById('message').value;
-        //     var fileInput = document.getElementById('file');
-        //     var file = fileInput.files[0];
-
-        //     var formData = new FormData();
-        //     formData.append('name', name);
-        //     formData.append('email', email);
-        //     formData.append('message', message);
-        //     formData.append('file', file);
-
-        //     emailjs.sendForm('service_fq6szr9', 'template_6juye7m', formData)
-        //         .then(function(response) {
-        //             alert('SUCCESS!', response.status, response.text);
-        //         }, function(error) {
-        //             alert('FAILED...', error);
-        //         });
-        // });
-    </script>
 </body>
 </html>
